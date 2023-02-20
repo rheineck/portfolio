@@ -13,7 +13,7 @@ export function App() {
         <a href="http://github.com/rheineck">GitHub</a>
         <a href="http://linkedin.com/in/raphael-gilioli-heineck">Linkedin</a>
         <a href="mailto:raphaelheineck@gmail.com">Email me!</a>
-        <a href="#">Curriculum</a>
+        <a href="https://bityli.com/Aovm8">Curriculum</a>
       </div>
 
       <footer>Made using ReactJS and Styled-Components</footer>
