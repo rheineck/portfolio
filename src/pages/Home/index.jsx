@@ -1,6 +1,13 @@
+import { useNavigate } from 'react-router-dom'
 import { Container } from './style'
 
 export function Home() {
+
+  const navigate = useNavigate()
+
+  function handleNavigation() {
+    navigate('/portfolio')
+  }
 
   return (
     <Container>
@@ -10,7 +17,7 @@ export function Home() {
       <p>I'm Chemical Engineer and Master in Pharmaceutical Sciences, now studying to be a Full-Stack Developer.</p>
 
       <div className="links">
-        <a href='#'>Projects</a> {/* Navegar para página com portfólio detalhado */}
+        <a onClick={handleNavigation}>Projects</a>
         <a href="http://linkedin.com/in/raphael-gilioli-heineck">Linkedin</a>
         <a href="mailto:raphaelheineck@gmail.com">Email me!</a>
         <a href="#">Curriculum</a>

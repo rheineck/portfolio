@@ -1,16 +1,18 @@
 import { Container } from './styles'
-import FoodExplorer from '../../assets/FoodExplorer.png'
 
-export function Card({ title, description,...rest}) {
+export function Card({ title, description, tec, image, ...rest}) {
 
-  return(
-    <Container>
+  return  (
+    <Container {...rest}>
       <div className='image'>
-        <img src={FoodExplorer} alt="Foto do Projeto FoodExplorer" />
+        <img src={image} alt="Foto do Projeto" />
       </div>
       <div className="text">
         <h2>{title}</h2>
         <span>{description}</span>
+        <div className="tecnologies">
+          {tec}
+        </div>
       </div>
     </Container>
   )

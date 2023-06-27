@@ -9,11 +9,11 @@ export const Container = styled.div`
   flex-direction: column;
   padding: 36px;
 
-  margin: 200px auto;
+  margin: auto;
 
-  border-top: 2px solid gray;
+  /* border-top: 2px solid gray;
   border-bottom: 2px solid gray;
-  color: ${({ theme }) => theme.COLORS.WHITE};
+  color: ${({ theme }) => theme.COLORS.WHITE}; */
 
   > img {
     height: 180px;
@@ -32,6 +32,10 @@ export const Container = styled.div`
     padding: 8px;
     border-radius: 24px;
     background: ${({ theme }) => theme.COLORS.BACKGROUND_BUTTON};
+
+    &:hover {
+      background: ${({ theme }) => theme.COLORS.BACKGROUND_BUTTON_HOVER};
+    }
   }
 
   .links {
@@ -40,7 +44,5 @@ export const Container = styled.div`
     margin-top: 24px;
   }
 
-  footer {
-    margin-top: 24px;
-  }
+  
 `

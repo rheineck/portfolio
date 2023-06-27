@@ -11,7 +11,7 @@ export default createGlobalStyle`
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND};
   }
 
-  h1, h2, p, span, a {
+  h1, h2, p, span, a, .tecnologies, button {
     font-family: 'Source Code Pro', monospace;
     color: ${({ theme }) => theme.COLORS.WHITE};
     line-height: 150%;
@@ -28,5 +28,7 @@ export default createGlobalStyle`
 
   footer {
     font-family: 'Source Code Pro', monospace;
+    margin-top: 24px;
+    color: ${({ theme }) => theme.COLORS.WHITE};
   }
 `
