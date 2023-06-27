@@ -11,8 +11,10 @@ export default createGlobalStyle`
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND};
   }
 
-  h1, p, span, a {
+  h1, h2, p, span, a {
     font-family: 'Source Code Pro', monospace;
+    color: ${({ theme }) => theme.COLORS.WHITE};
+    line-height: 150%;
   }
 
   p, span {
