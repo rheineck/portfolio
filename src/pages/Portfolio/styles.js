@@ -20,5 +20,8 @@ export const Container = styled.div`
 
   body {
     margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
 `

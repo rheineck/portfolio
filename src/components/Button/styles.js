@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_BUTTON};
   width: fit-content;
-  padding: 4px;
+  padding: 8px;
   border-radius: 10px;
 
   button {

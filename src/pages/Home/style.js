@@ -9,7 +9,7 @@ export const Container = styled.div`
   flex-direction: column;
   padding: 36px;
 
-  margin: auto;
+  margin: 120px auto;
 
   /* border-top: 2px solid gray;
   border-bottom: 2px solid gray;
